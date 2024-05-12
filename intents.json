@@ -1,0 +1,510 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+
+        "Why don't scientists trust atoms? Because they make up everything! \uD83D\uDE02",
+        "Why don't programmers like nature? It has too many bugs. \uD83D\uDC1E\uD83D\uDE02"
+      ]
+    },
+    {
+      "tag": "Boys-hostel",
+      "patterns": [
+        "Is there any room left in boys hostel",
+        "is there any room available in boys hostel",
+        "check room availability in boys hostel"
+      ],
+      "responses": [
+        "yes ,There is rooms available in boys hostel",
+        "Yes, you could contact with boys hostel superintendent "
+      ]
+    },
+    {
+      "tag": "Girls-hostel",
+      "patterns": [
+        "Is there any room left in Girls hostel",
+        "is there any room available in Girls hostel",
+        "check room availability in Girls hostel",
+        "Girls Hostel"
+      ],
+      "responses": [
+        "yes ,There is rooms available in Girls hostel",
+        "Yes, you could contact with Girls hostel superintendent "
+      ]
+    },
+    {
+      "tag":"hostel-cost",
+      "patterns": [
+        "How much does it cost to stay in a college hostel?"
+      ],
+      "responses": [
+        "500 rs per month"
+      ]
+    },
+    {
+      "tag":"choose-my-roommate",
+      "patterns": [
+        "Can I choose my roommate in a college hostel?"
+      ],
+      "responses": [
+        "In some cases, colleges allow students to request specific roommates or provide preferences regarding their roommate. However, the availability of such options may vary depending on the college's policies and procedures."
+      ]
+    },
+    {
+      "tag": "meals",
+      "patterns": [
+        "Are meals provided in a college hostel?",
+        "is there any food program"
+      ],
+      "responses": [
+        "yes, mess facilities where students can have their meals."
+      ]
+    },
+    {
+      "tag": "hostel essential",
+      "patterns": [
+        "What should I bring with me to a college hostel?"
+      ],
+      "responses": [
+        "It is generally recommended to bring essential items such as bedding (sheets, pillow, and blankets), toiletries, study materials, clothing, and any personal belongings you may require. However, it's advisable to check with the college or hostel administration for a detailed list of recommended items."
+      ]
+    },
+    {
+      "tag": "hostel restrictions",
+      "patterns": [
+        "Are there any restrictions on visitors in college hostels?"
+      ],
+      "responses": [
+        "Colleges usually have specific guidelines regarding visitor policies in their hostels. These policies may restrict the entry of non-residents, specify visiting hours, or require visitors to register at the hostel's front desk."
+      ]
+    },
+    {
+      "tag": "h1",
+      "patterns": [
+        "Can I stay in a college hostel during holidays or vacations?"
+      ],
+      "responses": [
+        "Some college hostels may allow students to stay during holidays or vacations, while others may require students to vacate the hostel during designated periods. It's best to check with the hostel administration for their specific policies regarding vacation stays."
+      ]
+    },
+    {
+      "tag": "h2",
+      "patterns": [
+        "How can I address concerns or issues in a college hostel?"
+      ],
+      "responses": [
+        "If you have any concerns or issues in a college hostel, you can usually approach the hostel warden or administration. They are responsible for managing and addressing any problems faced by the hostel residents."
+      ]
+    },
+    {
+      "tag":"h3",
+      "patterns": ["Is there internet access available in college hostels?"],
+      "responses":["yes "]
+    },
+    {
+      "tag": "h4",
+      "patterns": ["Are there any rules regarding noise levels in college hostels?"],
+      "responses": ["Yes, college hostels often have rules regarding noise levels to ensure a conducive living and studying environment for all residents. Quiet hours may be established during specific times to minimize disturbances."]
+    },
+    {
+      "tag": "h5",
+      "patterns": ["Can I personalize my room in a college hostel?"],
+      "responses": ["The extent to which you can personalize your room in a college hostel may vary."]
+    },
+    {
+      "tag": "h6",
+      "patterns": ["Can I have overnight guests in my college hostel room?"],
+      "responses": ["College hostels generally have policies regarding overnight guests, and they may or may not permit them. It's important to check with the hostel administration to understand the specific guidelines and restrictions in place."]
+    },
+    {
+      "tag": "h7",
+      "patterns": ["Can I receive mail or packages in a college hostel?"],
+      "responses": [" Many college hostels have mailboxes or designated areas where residents can receive mail or packages."]
+    },
+    {
+      "tag": "h8",
+      "patterns": ["What happens if I need to check out of the college hostel temporarily?"],
+      "responses": ["If you need to check out of the college hostel temporarily, you should inform the hostel administration in advance and follow their designated check-out procedures. They may provide instructions on storing your belongings securely during your absence."]
+    },
+    {
+        "tag": "available_labs",
+        "patterns": ["What labs are available at your college?", "Can you provide information about the labs in your college?"],
+        "responses": ["We have a variety of well-equipped labs to support practical learning and research. Some of the labs available at our college include:\n- Computer Science Lab\n- Electronics Lab\n- Chemistry Lab\n- Physics Lab\n- Biology Lab\n- Engineering Lab\n- Robotics Lab\n- Multimedia Lab\nThese labs provide students with hands-on experience and a conducive environment for conducting experiments and projects."]
+    },
+    {
+        "tag": "lab_schedules",
+        "patterns": ["What are the timings of the labs?", "Can you provide the schedule for using the labs?"],
+        "responses": ["The lab timings may vary depending on the specific lab and the academic schedule. Typically, the labs are open during regular college hours. It is advisable to check the lab schedule with the concerned faculty or lab coordinators for accurate information on lab timings."]
+    },
+    {
+        "tag": "lab_rules",
+        "patterns": ["What are the rules and guidelines for using the labs?", "Can you provide information about the lab protocols?"],
+        "responses": ["To ensure a safe and productive lab environment, we have certain rules and guidelines for using the labs. Some common lab protocols include:\n- Following safety procedures, such as wearing appropriate lab attire and handling equipment with care.\n- Adhering to ethical practices and maintaining academic integrity.\n- Respecting the equipment and resources in the lab.\n- Seeking permission from lab staff or faculty before using the lab facilities.\nIt's important to familiarize yourself with the specific rules and guidelines of each lab, which are usually posted in the lab premises."]
+    },
+    {
+        "tag": "lab_assistants",
+        "patterns": ["Are there lab assistants available to provide guidance?", "Can you tell me about the lab assistants at your college?"],
+        "responses": ["Yes, we have lab assistants who are knowledgeable and experienced in their respective fields. They provide guidance and support to students using the lab facilities. Lab assistants are available during lab hours to address any queries, assist with equipment setup, and ensure a smooth functioning of the labs."]
+    },
+    {
+        "tag": "lab_equipments",
+        "patterns": ["What types of equipment are available in the labs?", "Can you provide information about the lab equipment?"],
+        "responses": ["Our labs are equipped with state-of-the-art equipment and tools relevant to the respective disciplines. Some examples of lab equipment include:\n- Computers with the latest software for computer science and multimedia labs.\n- Oscilloscopes, function generators, and soldering stations in electronics labs.\n- Chemical reagents and apparatus in chemistry labs.\n- Microscopes, centrifuges, and lab glassware in biology labs.\n- Engineering tools and machinery in engineering labs.\nThese equipment ensure that students have hands-on experience with industry-standard tools and technologies."]
+    },
+    {
+        "tag": "lab_booking",
+        "patterns": ["How can students book the labs for their projects or experiments?", "Can you provide information about lab booking procedures?"],
+        "responses": ["Lab booking procedures may vary depending on the specific lab and the college's policies. Typically, students can book the labs through a centralized booking system or by contacting the lab coordinator or concerned faculty. It's advisable to plan ahead and book the lab well in advance to ensure availability for your projects or experiments."]
+    },
+    {
+        "tag": "ece_labs",
+        "patterns": ["What are the labs available for the ECE branch?", "Tell me about the labs in the ECE department."],
+        "responses": ["The ECE (Electronics and Communication Engineering) department has several well-equipped labs to support practical learning and research. Some of the labs available for ECE students include:\n- Digital Electronics Lab\n- Analog Electronics Lab\n- Communication Systems Lab\n- Microprocessor Lab\n- VLSI Design Lab\n- Embedded Systems Lab\n- Signal Processing Lab\nThese labs provide hands-on experience in designing and testing electronic circuits, working with communication systems, programming microprocessors, and implementing VLSI designs."]
+    },
+    {
+        "tag": "ece_curriculum",
+        "patterns": ["What is the curriculum like for the ECE branch?", "Can you provide information about the ECE course structure?"],
+        "responses": ["The curriculum for the ECE (Electronics and Communication Engineering) branch covers a wide range of subjects related to electronics, communication systems, signal processing, microprocessors, VLSI design, and more. It includes both theoretical knowledge and practical skills through laboratory sessions, projects, and internships. The curriculum is designed to provide a strong foundation in core ECE concepts and prepares students for careers in areas such as telecommunications, embedded systems, and electronic circuit design."]
+    },
+    {
+        "tag": "ece_digital_lab",
+        "patterns": ["Tell me about the Digital Electronics Lab in the ECE branch.", "What can students learn in the Digital Electronics Lab?"],
+        "responses": ["The Digital Electronics Lab in the ECE branch is designed to help students understand and experiment with digital circuits. In this lab, students learn about logic gates, flip-flops, counters, and other digital components. They get hands-on experience in designing and implementing digital circuits using simulation software and hardware tools."]
+    },
+    {
+        "tag": "ece_communication_lab",
+        "patterns": ["What can students do in the Communication Systems Lab for the ECE branch?", "Tell me about the Communication Systems Lab."],
+        "responses": ["The Communication Systems Lab in the ECE branch focuses on practical aspects of communication systems. In this lab, students learn about modulation techniques, transmission lines, antennas, and digital communication systems. They gain hands-on experience by working with communication equipment, conducting experiments, and analyzing the performance of communication systems."]
+    },
+    {
+        "tag": "cse_placement",
+        "patterns": ["How are the placements for the CSE branch?", "Can you provide information about CSE placements?"],
+        "responses": ["The placement opportunities for the CSE (Computer Science and Engineering) branch are excellent. The demand for skilled computer science professionals is high in various industries, including software development, data analytics, artificial intelligence, and cybersecurity. Our college has a dedicated placement cell that works closely with leading companies to organize recruitment drives, internships, and job placement opportunities for CSE students. Many CSE graduates from our college have secured placements in renowned companies with competitive salary packages."]
+    },
+    {
+        "tag": "cse_labs",
+        "patterns": ["Can you provide information about the labs in the CSE branch?", "Tell me about the labs available for CSE students."],
+        "responses": ["The CSE (Computer Science and Engineering) department has advanced labs that cater to the needs of CSE students. Some of the labs available for CSE students include:\n- Programming Lab\n- Data Structures and Algorithms Lab\n- Database Management Lab\n- Network Lab\n- Software Engineering Lab\n- Artificial Intelligence Lab\n- Cybersecurity Lab\nThese labs are equipped with modern computing systems and software tools to facilitate programming, data analysis, software development, and experimentation in various domains of computer science."]
+    },
+    {
+        "tag": "cse_programming_lab",
+        "patterns": ["Tell me about the Programming Lab in the CSE branch.", "What can students learn in the Programming Lab?"],
+        "responses": ["The Programming Lab in the CSE branch is where students develop their programming skills and practice coding. In this lab, students learn programming languages such as C, C++, Java, and Python. They solve programming problems, develop algorithms, and implement software applications. The lab provides a hands-on environment for students to enhance their coding abilities."]
+    },
+    {
+        "tag": "cse_ai_lab",
+        "patterns": ["What can students do in the Artificial Intelligence Lab for the CSE branch?", "Tell me about the Artificial Intelligence Lab."],
+        "responses": ["The Artificial Intelligence Lab in the CSE branch is dedicated to exploring and implementing AI techniques and algorithms. In this lab, students work on projects related to machine learning, natural language processing, computer vision, and data mining. They use popular AI frameworks and tools to develop intelligent systems and gain practical experience in AI application development."]
+    },
+    {
+        "tag": "civil_projects",
+        "patterns": ["Can you provide information about the projects in the Civil branch?", "Tell me about the practical projects in Civil Engineering."],
+        "responses": ["The Civil Engineering branch offers a range of practical projects that focus on various aspects of civil engineering, including structural analysis and design, transportation engineering, environmental engineering, and construction management. Students undertake projects such as designing and analyzing structures, conducting soil tests, developing transportation models, and implementing sustainable construction practices. These projects provide hands-on experience and enable students to apply theoretical concepts to real-world scenarios."]
+    },
+    {
+        "tag": "civil_labs",
+        "patterns": ["Can you provide information about the labs in the Civil branch?", "Tell me about the labs available for Civil Engineering students."],
+        "responses": ["The Civil Engineering department has labs that provide practical exposure to Civil Engineering principles and practices. Some of the labs available for Civil Engineering students include:\n- Material Testing Lab\n- Geotechnical Engineering Lab\n- Environmental Engineering Lab\n- Structural Engineering Lab\n- Surveying Lab\n- Concrete Technology Lab\n- Transportation Engineering Lab\nThese labs are equipped with instruments and equipment to conduct experiments related to material testing, soil analysis, environmental impact assessment, structural analysis, and transportation engineering."]
+    },
+    {
+        "tag": "civil_material_testing_lab",
+        "patterns": ["Tell me about the Material Testing Lab in the Civil branch.", "What can students learn in the Material Testing Lab?"],
+        "responses": ["The Material Testing Lab in the Civil branch is equipped to analyze the properties of construction materials. In this lab, students conduct tests on various materials such as concrete, steel, aggregates, and soil. They learn techniques to determine the strength, durability, and composition of construction materials. The lab provides hands-on experience in material testing methods as per industry standards."]
+    },
+    {
+        "tag": "ee_research",
+        "patterns": ["What kind of research opportunities are available in the EE branch?", "Tell me about research activities in Electrical Engineering."],
+        "responses": ["The EE (Electrical Engineering) branch offers several research opportunities for students who are interested in delving deeper into electrical systems, power generation, control systems, and related areas. Students can work on research projects under the guidance of faculty members, collaborate with research institutes, or participate in industry-sponsored research programs. These research activities contribute to advancements in areas such as renewable energy, power electronics, electric vehicles, and automation, while also providing students with valuable research experience."]
+    },
+    {
+        "tag": "ee_labs",
+        "patterns": ["What labs are available for the EE branch?", "Tell me about the labs in the Electrical Engineering department."],
+        "responses": ["The Electrical Engineering department has dedicated labs to provide practical training in electrical systems and technologies. Some of the labs available for Electrical Engineering students include: Electrical Machines Lab, Power Systems Lab,Control Systems Lab, Power Electronics Lab , Renewable Energy Lab , Instrumentation and Measurement Lab, Microcontroller Lab ,These labs are equipped with modern instruments and equipment to facilitate hands-on learning."]
+    },
+    {
+        "tag": "ee_power_systems_lab",
+        "patterns": ["Tell me about the Power Systems Lab in the EE branch.", "What can students learn in the Power Systems Lab?"],
+        "responses": ["The Power Systems Lab in the EE branch is focused on electrical power generation, transmission, and distribution. In this lab, students study power system components, load flow analysis, and power system protection. They gain practical experience in operating and testing electrical machines, transformers, and power system equipment. The lab enables students to understand the complexities of power systems and analyze their performance."]
+    },
+    {
+        "tag": "ee_control_systems_lab",
+        "patterns": ["What can students do in the Control Systems Lab for the EE branch?", "Tell me about the Control Systems Lab."],
+        "responses": ["The Control Systems Lab in the EE branch is dedicated to the study of control theory and practical applications. In this lab, students learn about control system modeling, analysis, and design. They work with control system software and hardware to analyze system response, implement control algorithms, and experiment with feedback systems. The lab provides hands-on experience in understanding and manipulating control systems."]
+    },
+    {
+        "tag": "sports_facilities",
+        "patterns": ["What sports facilities are available at your college?", "Can you provide information about the sports infrastructure?"],
+        "responses": ["Our college offers a wide range of sports facilities to cater to the diverse interests of students. We have a well-equipped sports complex that includes facilities such as a gymnasium, indoor courts for basketball and badminton, outdoor fields for football and cricket, a swimming pool, and a running track. Additionally, we have dedicated spaces for sports like tennis, volleyball, and table tennis."]
+    },
+    {
+        "tag": "sports_teams",
+        "patterns": ["Which sports teams represent your college?", "Can you tell me about the college sports teams?"],
+        "responses": ["We have various sports teams that represent our college in intercollegiate competitions. Some of the prominent sports teams include football, cricket, basketball, volleyball, tennis, and athletics. These teams participate in tournaments and matches, showcasing the talent and dedication of our student athletes."]
+    },
+    {
+        "tag": "sports_events",
+        "patterns": ["Are there any upcoming sports events in your college?", "Can you provide information about the sports events?"],
+        "responses": ["Yes, we have several sports events lined up throughout the academic year. Some of the upcoming events include intercollegiate tournaments, annual sports meets, and friendly matches with other colleges. These events provide opportunities for students to showcase their skills, engage in healthy competition, and foster a spirit of sportsmanship."]
+    },
+    {
+        "tag": "sports_training",
+        "patterns": ["Are there training programs available for students interested in sports?", "How does the college support students in sports training?"],
+        "responses": ["Absolutely! We offer comprehensive sports training programs for students interested in various sports. Our college has qualified coaches and trainers who provide guidance and mentorship to aspiring athletes. We organize regular practice sessions, skill development workshops, and conditioning programs to enhance the performance of our sports teams and individual athletes."]
+    },
+    {
+        "tag": "sports_scholarships",
+        "patterns": ["Are there sports scholarships available for talented athletes?", "Can you provide information about sports scholarships at your college?"],
+        "responses": ["Yes, we have sports scholarships available for talented athletes who excel in their respective sports. These scholarships aim to recognize and support students who demonstrate exceptional sports performance and dedication. Eligibility criteria and the application process for sports scholarships can be obtained from our college's sports department or the scholarship office."]
+    },
+    {
+        "tag": "intramural_sports",
+        "patterns": ["Are there intramural sports leagues or tournaments in your college?", "Can you tell me more about intramural sports activities?"],
+        "responses": ["Yes, we organize intramural sports leagues and tournaments within our college. These activities provide opportunities for friendly competition among students within different departments or student groups. Students can form teams and participate in sports such as football, basketball, cricket, and more. It's a great way to stay active, build teamwork, and foster a sense of camaraderie among students."]
+    },
+    {
+        "tag": "sports_clubs",
+        "patterns": ["Are there sports clubs or societies in your college?", "Can you provide information about joining sports clubs?"],
+        "responses": ["Yes, we have sports clubs and societies that cater to specific sports or recreational activities. These clubs welcome students who have a passion for a particular sport and provide a platform for them to practice, compete, and socialize with fellow sports enthusiasts."]
+    },
+    {
+        "tag": "sports_tournaments",
+        "patterns": ["Do you host any sports tournaments in your college?", "Can you provide information about the college sports tournaments?"],
+        "responses": ["Yes, we host various sports tournaments in our college throughout the year. These tournaments attract participants from different colleges and universities, providing a platform for healthy competition and showcasing sporting talent. Some of the popular sports tournaments we host include [tournament 1], [tournament 2], and [tournament 3]."]
+    },
+    {
+        "tag": "sports_captains",
+        "patterns": ["Who are the captains of your college sports teams?", "Can you provide information about the team captains?"],
+        "responses": ["We have capable and dedicated captains leading our college sports teams. The current team captains are:\n- Football: [captain name]\n- Cricket: [captain name]\n- Basketball: [captain name]\n- Volleyball: [captain name]\n- Tennis: [captain name]\nThese captains demonstrate exceptional leadership skills and play a pivotal role in guiding and motivating their respective teams."]
+    },
+    {
+        "tag": "sports_faculty_support",
+        "patterns": ["What kind of support does the college faculty provide for sports activities?", "How involved are the faculty members in sports at your college?"],
+        "responses": ["Our college faculty is highly supportive of sports activities. Many faculty members take on the role of sports mentors, providing guidance, encouragement, and technical expertise to student athletes. They actively participate in organizing sports events, coaching teams, and fostering a culture of sportsmanship. Faculty support is integral to the development and success of our sports programs."]
+    },
+    {
+        "tag": "sports_inclusivity",
+        "patterns": ["Is there inclusivity in sports at your college?", "How does the college promote inclusiveness in sports activities?"],
+        "responses": ["We strongly believe in promoting inclusivity in sports at our college. Our sports programs are open to all students, regardless of their background, gender, or ability. We provide equal opportunities and resources to encourage participation and growth in sports. Additionally, we strive to create a welcoming and supportive environment where everyone can enjoy and excel in sports."]
+    },
+    {
+        "tag": "sports_funding",
+        "patterns": ["How does the college fund its sports programs?", "Can you provide information about the funding for sports activities?"],
+        "responses": ["The college allocates a dedicated budget for sports activities and infrastructure development. This funding covers various aspects such as maintenance of sports facilities, equipment procurement, coaching expenses, participation in tournaments, and organizing sports events. We also seek sponsorships and partnerships with corporate entities to further support our sports programs."]
+    },
+    {
+        "tag": "sports_achievements",
+        "patterns": ["What are some notable sports achievements of your college?", "Can you highlight the major sports accomplishments?"],
+        "responses": ["Our college has a proud history of sports achievements. Some notable accomplishments include winning the [tournament name] in [year], securing [position] in the [competition name], and producing national-level athletes in disciplines like [sport]. Our athletes have consistently represented our college with distinction and brought home numerous medals and accolades."]
+    },
+    {
+        "tag": "application_deadline",
+        "patterns": ["What is the application deadline for the upcoming academic year?"],
+        "responses": ["The application deadline for the upcoming academic year is [specific date]. Please make sure to submit your application before this deadline."]
+    },
+    {
+        "tag": "application_deadline",
+        "patterns": ["What is the application deadline for the upcoming academic year?"],
+        "responses": ["The application deadline for the upcoming academic year is [specific date]. Please make sure to submit your application before this deadline."]
+    },
+    {
+        "tag": "application_process",
+        "patterns": ["How do I apply to your college/university?"],
+        "responses": ["To apply to our college/university, you can visit our official website and follow the instructions provided in the 'Admissions' section. There, you will find the online application form and guidelines on how to complete it."]
+    },
+    {
+        "tag": "admission_requirements",
+        "patterns": ["What are the admission requirements, such as GPA, standardized test scores, and prerequisites?"],
+        "responses": ["The admission requirements vary depending on the program and level of study. Generally, we consider factors such as GPA, standardized test scores (such as SAT or ACT), and any specific prerequisites for the desired program. It's recommended to check our website or contact the admissions office for detailed information about the specific requirements for your intended program."]
+    },
+    {
+        "tag": "letters_of_recommendation",
+        "patterns": ["Do you require letters of recommendation, and if so, how many?"],
+        "responses": ["Letters of recommendation may be required for certain programs. The number of letters required can also vary. Please refer to the application guidelines or contact the admissions office to determine the exact number of letters needed for your application."]
+    },
+    {
+        "tag": "tuition_fee",
+        "patterns": ["What is the tuition fee for the program I'm interested in?"],
+        "responses": ["The tuition fee for the program you're interested in can be found on our website or in the university's fee structure document. It's important to note that tuition fees may vary depending on the program, duration of study, and whether you are an in-state or out-of-state student."]
+    },
+    {
+        "tag": "scholarships_financial_aid",
+        "patterns": ["Are there any scholarships or financial aid options available?"],
+        "responses": ["We offer various scholarships and financial aid options for eligible students. These may include merit-based scholarships, need-based grants, or work-study programs. To learn more about the available options and the application process, please visit the financial aid section of our website or contact the financial aid office."]
+    },
+    {
+        "tag": "credit_transfer",
+        "patterns": ["Can I transfer credits from another institution?"],
+        "responses": ["We have a credit transfer policy in place. If you have completed courses at another institution, you may be eligible to transfer those credits to our college/university. The specific requirements and limitations regarding credit transfer can be found on our website or by contacting the admissions office."]
+    },
+    {
+        "tag": "required_documents",
+        "patterns": ["What documents do I need to submit with my application?"],
+        "responses": ["The documents required for your application typically include academic transcripts, standardized test scores, letters of recommendation (if applicable), a personal statement or essay, and any other specific documents mentioned in the application guidelines. Make sure to review the requirements carefully and submit all necessary documents before the deadline."]
+    },
+    {
+        "tag": "interview_requirement",
+        "patterns": ["Is an interview required as part of the admission process?"],
+        "responses": ["An interview may or may not be required as part of the admission process."]
+    },
+    {
+        "tag": "decision_notification",
+        "patterns": ["When will I receive a decision on my application?"],
+        "responses": ["The timeline for receiving a decision on your application varies. It depends on the volume of applications received and the specific program you applied to. Once you have submitted your application, you will be notified of the decision within a specified timeframe. You can usually track the status of your application online or contact the admissions office for updates."]
+    },
+    {
+        "tag": "entrance_exams",
+        "patterns": ["Are there any specific entrance exams or interviews for certain programs or majors?"],
+        "responses": ["Some programs or majors may require specific entrance exams or interviews as part of the admission process. It's important to review the requirements for your intended program on our website or by contacting the admissions office to determine if any such exams or interviews are necessary."]
+    },
+    {
+        "tag": "admission_preferences",
+        "patterns": ["Are there specific admission quotas or preferences for certain categories of students, such as international students, athletes, or students with disabilities?"],
+        "responses": ["We value diversity and consider applicants from various backgrounds. While we may have certain admission preferences or quotas for specific categories of students (such as international students, athletes, or students with disabilities), the exact details can be found in our admissions policy or by contacting the admissions office."]
+    },
+    {
+        "tag": "orientation_program",
+        "patterns": ["Is there an orientation program for new students?"],
+        "responses": ["Yes, we have an orientation program for new students. This program is designed to help you become familiar with the campus, connect with fellow students, and provide important information about academic resources, student services, and campus life. Details about the orientation program will be provided to you after you are admitted."]
+    },
+    {
+        "tag": "campus_visit",
+        "patterns": ["Can I visit the campus and take a tour before applying?"],
+        "responses": ["Campus visits and tours are encouraged and can be scheduled through our website or by contacting the admissions office. We believe that visiting the campus will give you a better understanding of our facilities, atmosphere, and community. It's an opportunity to ask questions and see if our college/university aligns with your preferences and goals."]
+    },
+    {
+        "tag": "housing_options",
+        "patterns": ["What are the housing options for students, and how do I apply for on-campus accommodation?"],
+        "responses": ["We offer various housing options for students, including on-campus accommodation. Information about the housing options, application process, and deadlines can be found on our website or by contacting the housing office. It's advisable to apply for on-campus accommodation well in advance, as space may be limited."]
+    },
+    {
+        "tag": "support_services",
+        "patterns": ["What support services are available for students, such as counseling, career guidance, or academic tutoring?"],
+        "responses": ["We provide a range of support services for students, including counseling, career guidance, and academic tutoring. Our aim is to support your personal, career, and academic development throughout your college journey. More information about these services can be found on our website or by contacting the student support office."]
+    },
+    {
+        "tag": "extracurricular_activities",
+        "patterns": ["Are there any specific extracurricular activities or clubs available for students to participate in?"],
+        "responses": ["We offer a diverse range of extracurricular activities and clubs for students to participate in."]
+    },
+    {
+        "tag": "upcoming_festival",
+        "patterns": ["Which festival is coming up next?","What is the next festival in college?"],
+        "responses": ["The next festival in college is [festival name]. It is scheduled to take place on [date]."]
+    },
+    {
+        "tag": "festival_theme",
+        "patterns": ["What is the theme for this year's festival?", "What is the festival theme?"],
+        "responses": ["The theme for this year's festival is [theme]. It has been chosen to celebrate [reason/theme]."]
+    },
+    {
+        "tag": "festival_schedule",
+        "patterns": ["Can you provide the schedule for the festival?", "What are the events happening during the festival?"],
+        "responses": ["Certainly! Here is the schedule for the festival:\n- [Event 1] at [time]\n- [Event 2] at [time]\n- [Event 3] at [time]\n... and more."]
+    },
+    {
+        "tag": "participating_in_events",
+        "patterns": ["How can I participate in the events during the festival?", "Can students participate in the festival events?"],
+        "responses": ["Absolutely! We encourage student participation in the festival events. You can register for specific events by visiting our festival website or contacting the event organizers. Make sure to check the registration deadlines for each event."]
+    },
+    {
+        "tag": "performing_at_festival",
+        "patterns": ["Can I perform at the festival?","How can I showcase my talent during the festival?"],
+        "responses": ["We welcome student performances during the festival! If you would like to showcase your talent, please reach out to the festival committee or the cultural club responsible for organizing performances. They will provide you with further details on auditions or submission processes."]
+    },
+    {
+        "tag": "food_stalls",
+        "patterns": ["Will there be food stalls during the festival?","What kind of food options will be available at the festival?"],
+        "responses": ["Yes, there will be food stalls offering a variety of cuisines during the festival. You can enjoy delicious food options such as [cuisine 1], [cuisine 2], [cuisine 3], and more. Don't miss out on the gastronomic delights!"]
+    },
+    {
+        "tag": "entry_tickets",
+        "patterns": ["Do I need to purchase tickets to attend the festival?","Is there an entry fee for the festival?"],
+        "responses": ["The entry to the festival is free for all students. You do not need to purchase tickets or pay an entry fee. However, certain events or attractions within the festival may have separate ticketing or registration requirements. Please check the festival website or contact the organizers for specific event details."]
+    },
+    {
+        "tag": "festival_highlights",
+        "patterns": ["What are the highlights of the festival?", "Can you tell me more about the main attractions of the festival?"],
+        "responses": ["The festival will feature a range of exciting attractions, including live performances by renowned artists, engaging workshops, cultural showcases, thrilling games, and much more. It's an opportunity to immerse yourself in the vibrant spirit of the festival and create unforgettable memories."]
+    },
+    {
+        "tag": "festival_location",
+        "patterns": ["Where will the festival be held?","What is the venue for the festival?"],
+        "responses": ["The festival will be held at [venue name]"]
+    },
+    {
+        "tag": "festival_theme_explanation",
+        "patterns": ["What is the inspiration behind this year's festival theme?", "Can you explain the significance of the festival theme?"],
+        "responses": ["The festival theme is inspired by [inspiration]. It represents [theme representation]. We chose this theme to evoke a sense of [emotion] and create a memorable and meaningful experience for all festival attendees."]
+    },
+    {
+        "tag": "festival_volunteer",
+        "patterns": ["How can I volunteer for the festival?", "Are there any opportunities to get involved as a volunteer?"],
+        "responses": ["We appreciate your interest in volunteering for the festival! To become a volunteer, you can fill out the volunteer application form available on our festival website. We will review your application and contact you with further instructions and details about your volunteer role."]
+    },
+    {
+        "tag": "festival_sponsors",
+        "patterns": ["Who are the sponsors for the festival?", "Which companies or organizations are supporting the festival?"],
+        "responses": ["We are grateful for the generous support of our festival sponsors. This year, the festival is sponsored by [sponsor 1], [sponsor 2], [sponsor 3], and other esteemed organizations. Their contributions have played a crucial role in making this event possible."]
+    },
+    {
+        "tag": "festival_attendance",
+        "patterns": ["Can people from outside the college attend the festival?", "Is the festival open to the public?"],
+        "responses": ["While the festival primarily caters to our college community, we also welcome visitors from outside the college to join in the celebrations. It's a great opportunity to showcase our vibrant campus culture and foster connections with the wider community."]
+    },
+    {
+        "tag": "festival_security",
+        "patterns": ["What security measures are in place during the festival?", "How do you ensure the safety of festival attendees?"],
+        "responses": ["The safety and security of festival attendees are our top priorities. We have a comprehensive security plan in place, including trained security personnel, CCTV surveillance, and emergency response protocols. Additionally, we work closely with local law enforcement agencies to ensure a safe and enjoyable festival experience for everyone."]
+    }
+  ]
+}
